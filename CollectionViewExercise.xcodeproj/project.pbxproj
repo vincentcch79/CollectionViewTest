@@ -12,6 +12,9 @@
 		9FF9AEC51D20E5B3007E75E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FF9AEC31D20E5B3007E75E4 /* Main.storyboard */; };
 		9FF9AEC71D20E5B3007E75E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FF9AEC61D20E5B3007E75E4 /* Assets.xcassets */; };
 		9FF9AECA1D20E5B3007E75E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FF9AEC81D20E5B3007E75E4 /* LaunchScreen.storyboard */; };
+		9FF9AED21D20F430007E75E4 /* SteakCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF9AED11D20F430007E75E4 /* SteakCollectionViewController.swift */; };
+		9FF9AED51D20FA6E007E75E4 /* SteakCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF9AED31D20FA6E007E75E4 /* SteakCollectionViewCell.swift */; };
+		9FF9AED61D20FA6E007E75E4 /* SteakCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FF9AED41D20FA6E007E75E4 /* SteakCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		9FF9AEC61D20E5B3007E75E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9FF9AEC91D20E5B3007E75E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9FF9AECB1D20E5B3007E75E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FF9AED11D20F430007E75E4 /* SteakCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SteakCollectionViewController.swift; sourceTree = "<group>"; };
+		9FF9AED31D20FA6E007E75E4 /* SteakCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SteakCollectionViewCell.swift; sourceTree = "<group>"; };
+		9FF9AED41D20FA6E007E75E4 /* SteakCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SteakCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				9FF9AEC61D20E5B3007E75E4 /* Assets.xcassets */,
 				9FF9AEC81D20E5B3007E75E4 /* LaunchScreen.storyboard */,
 				9FF9AECB1D20E5B3007E75E4 /* Info.plist */,
+				9FF9AED11D20F430007E75E4 /* SteakCollectionViewController.swift */,
+				9FF9AED31D20FA6E007E75E4 /* SteakCollectionViewCell.swift */,
+				9FF9AED41D20FA6E007E75E4 /* SteakCollectionViewCell.xib */,
 			);
 			path = CollectionViewExercise;
 			sourceTree = "<group>";
@@ -125,6 +134,7 @@
 				9FF9AECA1D20E5B3007E75E4 /* LaunchScreen.storyboard in Resources */,
 				9FF9AEC71D20E5B3007E75E4 /* Assets.xcassets in Resources */,
 				9FF9AEC51D20E5B3007E75E4 /* Main.storyboard in Resources */,
+				9FF9AED61D20FA6E007E75E4 /* SteakCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,7 +146,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FF9AEC21D20E5B3007E75E4 /* ViewController.swift in Sources */,
+				9FF9AED21D20F430007E75E4 /* SteakCollectionViewController.swift in Sources */,
 				9FF9AEC01D20E5B3007E75E4 /* AppDelegate.swift in Sources */,
+				9FF9AED51D20FA6E007E75E4 /* SteakCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
